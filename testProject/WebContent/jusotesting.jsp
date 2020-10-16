@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="./testingMap.jsp" method="get" name="wfrm">
+	<form action="./testingMap.jsp" method="post" name="wfrm">
 		<div>
 			<div>
 				<table>
