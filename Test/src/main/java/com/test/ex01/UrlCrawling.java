@@ -32,11 +32,14 @@ public class UrlCrawling {
     		System.out.println(str);
     		System.out.println("==========끝==========");
     		*/
-    		System.out.println(doc.text());
+    		//System.out.println(doc.text());
     		System.out.println("================================절취선======================================");
+    		// StringBuffer str = new StringBuffer();
+    		// StringBuilder str = new StringBuilder();
+    		// str.append(doc.html().replaceAll("[^a-zA-Z0-9]", ""));
     		String str = "";
-    		str = doc.toString().replaceAll("[^a-zA-Z0-9]", "");
-    		//System.out.println(str);
+    		str = doc.html().replaceAll("[^a-zA-Z0-9]", "");
+    		System.out.printf("%s", str);
     		System.out.println("==========끝==========");
     		
         }
